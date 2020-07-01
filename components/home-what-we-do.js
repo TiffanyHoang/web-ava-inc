@@ -1,8 +1,7 @@
 import React from 'react'
+import colors from '../config/colors'
 
-import colors from '../../config/colors'
-
-export default () => (
+export const HomeWhatWeDo = () => (
   <div className="container">
     <div className="contentContainer">
       <div className="content">
@@ -28,7 +27,7 @@ export default () => (
 
       .container::after {
         content: "";
-        background: url(/static/flowers.jpeg);
+        background: url(/images/flowers.jpeg);
         background-size: cover;
         opacity: 0.1;
         top: 0;

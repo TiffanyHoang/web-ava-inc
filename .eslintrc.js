@@ -4,17 +4,18 @@ module.exports = {
   rules: {
     semi: [
       2,
-      'never'
+      'never',
     ],
     'react/jsx-filename-extension': [
       1,
       {
-        'extensions': [
+        extensions: [
           '.js',
-          '.jsx'
-        ]
-      }
+          '.jsx',
+        ],
+      },
     ],
     'max-len': 0,
-  }
+    'import/prefer-default-export': 0,
+  },
 }

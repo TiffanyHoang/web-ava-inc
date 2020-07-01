@@ -1,8 +1,7 @@
 import React from 'react'
+import colors from '../config/colors'
 
-import colors from '../../config/colors'
-
-export default () => (
+export const HomeWhoWeAre = () => (
   <div className="container">
     <div className="content">
       <h2>Who we are</h2>

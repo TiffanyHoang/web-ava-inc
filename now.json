@@ -1,12 +1,4 @@
 {
   "version": 2,
-  "name": "web-ava-inc",
-  "alias": "ava-inc.org.au",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": { "distDir": "out" }
-    }
-  ]
+  "cleanUrls": true
 }

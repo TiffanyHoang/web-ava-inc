@@ -2,44 +2,44 @@ import React from 'react'
 
 const photos = [
   {
-    src: '/static/ava1.jpg',
+    src: '/images/ava1.jpg',
   },
   {
-    src: '/static/ava2.jpg',
+    src: '/images/ava2.jpg',
   },
   {
-    src: '/static/ava6.jpg',
+    src: '/images/ava6.jpg',
   },
   {
-    src: '/static/ava4.jpg',
+    src: '/images/ava4.jpg',
   },
   {
-    src: '/static/ava11.jpg',
+    src: '/images/ava11.jpg',
   },
   {
-    src: '/static/ava3.jpg',
+    src: '/images/ava3.jpg',
   },
   {
-    src: '/static/ava7.jpg',
+    src: '/images/ava7.jpg',
   },
   {
-    src: '/static/ava8.jpg',
+    src: '/images/ava8.jpg',
   },
   {
-    src: '/static/ava9.jpg',
+    src: '/images/ava9.jpg',
   },
   {
-    src: '/static/ava10.jpg',
+    src: '/images/ava10.jpg',
   },
   {
-    src: '/static/ava5.jpg',
+    src: '/images/ava5.jpg',
   },
   {
-    src: '/static/ava12.jpg',
+    src: '/images/ava12.jpg',
   },
 ]
 
-export default () => (
+export const HomeGallery = () => (
   <div className="masonry">
     {photos.map(({ src }) => (
       <figure className="masonry-brick" key={src}>

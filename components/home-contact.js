@@ -1,8 +1,7 @@
 import React from 'react'
+import colors from '../config/colors'
 
-import colors from '../../config/colors'
-
-export default () => (
+export const HomeContact = () => (
   <div className="container">
     <div className="contentContainer">
       <div className="content">

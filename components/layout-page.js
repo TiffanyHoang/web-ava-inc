@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import Head from 'next/head'
 
-const Page = ({ children }) => (
-  <Fragment>
+export const Page = ({ children }) => (
+  <>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
@@ -33,11 +33,9 @@ const Page = ({ children }) => (
       }
     `}</style>
     {/* eslint-enable */}
-  </Fragment>
+  </>
 )
 
 Page.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
-export default Page
